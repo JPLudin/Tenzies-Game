@@ -1,0 +1,30 @@
+.title {
+  font-size: 2rem;
+}
+
+.text {
+  font-size: 1.2rem;
+}
+
+.dice-container {
+  margin-bottom: 3rem;
+  width: 100%;
+  display: grid;
+  grid-template: auto auto/repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.button {
+  background-color: #5035FF;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: .6rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.button-count {
+  font-size: 1.2rem;
+}
